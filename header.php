@@ -8,20 +8,28 @@
 <!--[if !(IE 7) | !(IE 8)  ]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
-	<head>
-		<meta charset="<?php bloginfo( 'charset' ); ?>">
-		<meta http-equiv="X-UA-Compatible" content="IE=9" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
+        <meta http-equiv="X-UA-Compatible" content="IE=9" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <title><?php if(is_home()) { echo bloginfo("name"); echo " | "; echo bloginfo("description"); } else { echo wp_title(" | ", false, right); echo bloginfo("name"); } ?></title>
         <meta name="google-site-verification" content="hZ-KSJwNREIdYBtht6A7XDcflyYH6XR-gSspAOifc7c" />
-		<!---<title><?php wp_title( '|', true, 'right' ); ?></title>--->
-		
-		<!--[if lt IE 9]>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-		<![endif]-->
-<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+        <!---<title><?php wp_title( '|', true, 'right' ); ?></title>--->
         
-		<?php wp_head(); ?>
+        <!--[if lt IE 9]>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jquery-ui.css" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        
+        <?php wp_head(); ?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,9 +40,9 @@
   ga('send', 'pageview');
 
 </script>
-	</head>
-	
-	<body <?php body_class(); ?> >
+    </head>
+    
+    <body <?php body_class(); ?> >
 <div id="pagewrapper">
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
@@ -44,7 +52,7 @@
     js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=545959148817658";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-	</div>
+    </div>
  
 <header>
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -58,22 +66,22 @@
       </button>
                                 
                 
-                <a class="navbar-brand" href="<?php echo site_url() ?>">		
+                <a class="navbar-brand" href="<?php echo site_url() ?>">        
                 <?php $logosrc = (strstr(site_url(),'/ca') != false)?'logo-ca.png':'logo1.png'; ?>
                 <img class="img-responsive" src="http://neurofitcenter.ca/wp-content/uploads/2015/03/logo_03.png" alt="NeuroFitness Centre" />
                 </a>
                 </div>
  <!--- add this as a id below--->
                             <div class="collapse navbar-collapse navbar-custom-collapse" id="navbar-toggle-custom">
-							<?php wp_nav_menu( 
-								array(
-									'theme_location'  => 'primary',
-									 
-									'items_wrap'      => '<ul id="%1$s" class="cl-effect-21 nav navbar-nav navbar-right navbar-text %2$s ">%3$s</ul>'
-								)
-							 ); ?>
+                            <?php wp_nav_menu( 
+                                array(
+                                    'theme_location'  => 'primary',
+                                     
+                                    'items_wrap'      => '<ul id="%1$s" class="cl-effect-21 nav navbar-nav navbar-right navbar-text %2$s ">%3$s</ul>'
+                                )
+                             ); ?>
 
-						</div>
+                        </div>
             <!--<ul class="btn-group navigation-1 nav nav-pills pull-right">
                 <ul class="nav navbar-nav pull-right hidden-xs hidden-sm hidden-md">
                     <li class="nav1-border"><a>Call Us: 306-501-5381</a></li>
@@ -98,6 +106,6 @@
     </nav>
 </header>
                         
-	
-	
-	
+    
+    
+    
