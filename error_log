@@ -1,0 +1,2 @@
+[08-May-2015 22:42:40 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/neurofitnessca/public_html/wp-content/themes/neurofit/index.php on line 1
+[19-Jul-2015 15:39:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/neurofitnessca/public_html/wp-content/themes/neurofit/404.php on line 5

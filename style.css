@@ -1,0 +1,1603 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    overflow-x: hidden;
+     font-family: 'Raleway', sans-serif;
+}
+
+
+    /*body .container {
+        width: 980px;
+        margin: 0px auto;
+        min-width: 980px;
+    }*/
+
+input, button, select, textarea {
+    max-width: 100%;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+
+
+/*---------------Font--------------------*/
+
+
+
+p {
+    font-family:  'Raleway', sans-serif;
+    text-align: left;
+    line-height: 1.9;
+    font-size: 1.5vmax;
+    font-size: 1em;
+}
+
+h1 {
+    font-family:  'Raleway', sans-serif;
+    font-size: 3vmax;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vmax;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.5vmax;
+    font-size: 1.5em;
+}
+
+
+/*---------------Global Header------------------*/
+
+
+.btn-group {
+    background-color: transparent;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 0px;
+}
+
+.navigation-1 > li > a {
+
+    margin-top: -7px;
+}
+
+li .inpt-search {
+    padding-top: 10px;
+    height: 3px;
+    margin-top: 4px;
+    width: 154px;
+}
+
+.pull-right {
+    padding-top: 5%;
+}
+
+.nav > li > a {
+    margin: 10px 20px 0px 0px;
+    padding: 0px;
+          text-decoration: none;
+  color: #cb6829 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.input-group-addon.srch_btn {
+    height: 22px;
+    width: 22px;
+    padding: 0px;
+    background-color: #fff;
+    margin: -8px;
+}
+
+
+
+.navigation-menu > .row div > div {
+    display: block;
+}
+
+.main-nav {
+    position: relative;
+    z-index: 30;
+    margin-right: 9px;
+    margin-bottom: -7px;
+}
+
+    .main-nav > ul {
+        margin: 0;
+    }
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.navbar-default .navbar-brand {
+    margin-left: 5.666667%;
+    position: absolute;
+    top: 3%;
+}
+
+.navbar-custom-collapse {
+    width: 100%;
+    background-color: rgba(255,255,255,.9);
+    -moz-box-shadow: 0 1px 46px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 46px 0px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 46px 0px rgba(0,0,0,0.4);
+    -moz-transition: margin, 0.55s, ease;
+    -o-transition: margin, 0.55s, ease;
+    -webkit-transition: margin, 0.55s, ease;
+    transition: margin, 0.55s, ease;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+    /*color: black;
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-color: transparent;*/
+    height:30px;
+    position:initial;
+    text-align:center;
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #081c2b;
+        background: none;
+        border-color: #6c7088;
+    }
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: transparent;
+}
+
+    .navbar-default .navbar-nav > .active > a:hover {
+
+        background-color: transparent;
+    }
+
+.contact-number {
+    padding: 5px 10px;
+}
+
+/*---------------End of Global Header------------------*/
+
+
+/*Beginning of Global Footer*/
+.custom-footer a{
+    text-decoration: none;
+}
+/*End of Global Footer*/
+
+/*
+* ABOUT page title 
+*/
+.title-info {
+    color: #007BC4;
+}
+
+/*---------------Beginning of Header Responsive Design-----------------*/
+
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1, h2, h3, p {
+        text-align: left;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+    .navbar-default .navbar-brand {
+        top: 3%;
+    }
+
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+        margin-right: 5.666667%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) {
+
+    h1, h2, h3, p {
+        text-align: left;
+    }
+
+    .navbar-default .navbar-brand {
+        top: -8px;
+        width: 25%;
+        margin-left: 15px;
+    }
+
+    .navbar-header {
+        float: none;
+        height: 60px;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+            }
+
+    .navbar-default .navbar-nav > li > a {
+        height: 40px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    h1, h2, h3, p {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height:40px;
+            }
+
+    .navbar-default .navbar-brand {
+        width: 25%;
+        position: relative;
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:768px) {
+    h1, h2, h3, p {
+        text-align: center;
+    }
+
+    .navbar-default .navbar-brand {
+        margin-left: 0px;
+        width: 30%;
+        top: 0;
+        padding-top:1.5%;
+    }
+
+        .navbar-default .navbar-brand img {
+            margin-left: 15px;
+        }
+
+        .navbar-default .navbar-brand a {
+            width: 75%;
+        }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+}
+
+@media (max-width:480px) {
+    .navbar-default .navbar-brand {
+        width: 60%;
+    }
+}
+
+
+/*End of Header (Navigation) Mobile Styling*/
+
+
+/*--------------------Beginning of Footer---------------------*/
+.custom-footer {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0,.5);
+      
+      padding-top:2%;
+
+}
+
+    .custom-footer h4 {
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+    }
+
+    .custom-footer ul {
+        padding: 0px;
+    }
+
+        .custom-footer ul > li {
+            display: block;
+            color: grey;
+            text-decoration: none;
+        }
+
+            .custom-footer ul > li a {
+                color: grey;
+            }
+
+                .custom-footer ul > li a:hover {
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+
+footer h4 {
+    color: grey;
+    margin-top: 30%;
+}
+
+footer ul {
+    padding: 0;
+}
+
+.footer-menu li {
+    display: block;
+    float: left;
+    border: 1px solid #1E90FF;
+    border-width: 0 1px 0 0;
+    padding: 3px 10px;
+}
+
+    .footer-menu li:first-child {
+        padding: 3px 10px 3px 0;
+    }
+
+.social {
+    float: right;
+}
+
+.bottom-logo {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.bottom-font-styling-logo {
+    text-align: center;
+    color: white;
+}
+
+/*--------------------End of Footer---------------------*/
+
+/*----------Beginning of Footer Mobile Styling----------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    footer {
+        padding-top: 5%;
+    }
+
+
+        footer a {
+            text-align: left;
+            
+        }
+
+    .bottom-font-styling-logo {
+        margin-left: 0px;
+    }
+
+    .custom-footer ul {
+        text-align: center;
+    }
+
+    .custom-footer h4 {
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .custom-footer img {
+        margin: 0 auto;
+    }
+.text-overlay-bottom-text{
+      padding: 5% 0;
+}
+    .text-overlay-bottom-text p {
+        color: #000000;
+        font-size:1em;
+    }
+}
+
+@media (max-width:768px) {
+
+footer h4{
+    margin-top:0;
+}
+
+    .middle-images-row img {
+        margin-bottom: 5px;
+    }
+    .bottom-font-styling-logo {
+        margin-left: 0px;
+    }
+
+    .custom-footer {
+        text-align: center;
+    }
+
+        .custom-footer img {
+            margin: 0 auto;
+        }
+
+        .bottom_logo_area{
+              background-color: #000000;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 15px;
+        }
+}
+
+
+
+/*----------End of Footer Mobile Styling----------*/
+
+
+
+/*----------------------------------------------Beginning of Page Specific Styling----------------------------------------------------*/
+
+
+
+/* ------------------ Home Page ------------------ */
+
+
+
+/*---Top of the Body---*/
+
+
+
+.top-container {
+    height: auto;
+}
+
+
+.topimageholder {
+    width: 100%;
+      max-height: 592px;
+  height: 592px;
+  margin-top:5%;
+}
+
+.topimage {
+/*margin-top:5%;*/
+    background-image: url('http://neurofitcenter.ca/wp-content/uploads/2015/05/topbackgroundimage.jpg');
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+.top-background-image {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.upper-container {
+    background-image: url('http://localhost/neurofit_wp/wp-content/uploads/2015/03/topImage_02_04.jpg');
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upper-text-box {
+    text-align: center;
+    margin-top: 12%;
+}
+
+    .upper-text-box h1 {
+        color: #222f59;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .upper-text-box h2 {
+        text-align: center;
+        color: #222f59;
+    }
+
+.scheduleAppointment {
+      padding: 70px 0;
+  background: #000;
+}
+
+.scheduleAppointment .row {
+
+}
+
+.top-schedule-button {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0px;
+              letter-spacing: 2px;
+            font-weight:bold;
+              text-transform: uppercase;
+}
+
+    .top-schedule-button:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .top-schedule-button a {
+        border: 1px;
+        border-color: #FFFFFF;
+        border-style: solid;
+        text-align: center;
+        text-decoration: none;
+        transition: all .4s ease 0s;
+        padding: 20px 30px;
+        color: #FFFFFF;
+        font-size: 100%;
+        text-decoration: none;
+    }
+
+        .top-schedule-button a:hover {
+            
+
+            color: #FFFFFF;
+            text-decoration: none;
+            background-color: #cb6829;
+            border-color: #cb6829;
+        }
+
+.top-home-con {
+    padding:5% 0%;
+    z-index: 9999;
+}
+
+    .top-home-con h2 {
+        margin-bottom: 2%;
+        text-align: center;
+        color: #222f59;
+        font-weight: bold;
+    }
+
+    .top-home-con h3 {
+        margin-bottom: 2%;
+        text-align: left;
+        color: blue;
+    }
+
+
+    .top-home-con p {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+
+/*---Middle of the Body---*/
+
+.middle-images-row {
+    margin-bottom: 2%;
+}
+
+.middle-images-row img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    filter: brightness(0.5);
+    -webkit-filter: brightness(0.9);
+    -moz-filter: brightness(0.9);
+    -o-filter: brightness(0.9);
+    -ms-filter: brightness(0.9);
+}
+
+    .middle-images-row img:hover {
+        filter: brightness(1.2);
+        -webkit-filter: brightness(1.2);
+        -moz-filter: brightness(1.2);
+        -o-filter: brightness(1.2);
+        -ms-filter: brightness(1.2);
+    }
+
+.motto-2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #222f59;
+}
+
+    .motto-2 h3 {
+        margin: 15px 0;
+    }
+
+.formind {
+    background: #7fb692;
+    color: #fff;
+      font-size: 35px;
+  font-weight: bold;
+  line-height: 35px;
+  padding:10px;
+}
+
+.forbody {
+    background: #cb6829;
+    color: #fff;
+      font-size: 35px;
+  font-weight: bold;
+  line-height: 35px;
+  padding:10px;
+}
+
+/*---Bottom of the Body---*/
+
+
+
+.text-overlay-bottom-image {
+    width: 100%;
+    position: relative;
+    height:100%;
+}
+
+    .text-overlay-bottom-image img {
+        height: 100%;
+    }
+    .text-overlay-bottom-text{
+        padding:5% 0;
+    }
+.text-overlay-bottom-text p {
+    color: #000000;
+    font-size:1em;
+}
+
+.text-overlay-bottom-text a {
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 5px 30px;
+    background-color: rgba(255,255,255,.2);
+    text-align: center;
+    text-decoration: none;
+    transition: all 1.0s ease 0s;
+}
+
+    .text-overlay-bottom-text a:hover {
+        background-color: #222f59;
+    }
+
+
+/*.top-schedule-button {
+    margin-top: 2%;
+}*/
+
+
+
+footer {
+    background: url('http://neurofitcenter.ca/wp-content/uploads/2015/05/Footer-Image.jpg');
+    height:100%;
+    width:100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+/*---------------Home Page Mobile Styling-------------------*/
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .upper-text-box h2 {
+        text-align: center;
+        color: #222f59;
+        font-family: 'Raleway', sans-serif;
+        padding-right: 18%;
+        padding-left: 18%;
+        line-height: 1.5;
+    }
+
+    .bottom-font-styling-logo {
+        width: 70%;
+    }
+
+    .text-overlay-bottom-text a {
+        top: 60%;
+    }
+
+/*    .text-overlay-bottom-text {
+        position: absolute;
+        top: 74%;
+    }*/
+    .top-home-con h2 {
+          font-size: 40px;
+  line-height: 40px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) {
+    .top-background-image {
+        top: 0%;
+    }
+
+    .upper-text-box {
+        margin-top: 11%;
+    }
+
+    .custom-footer {
+        padding-top: 2%;
+    }
+
+    .bottom-font-styling-logo {
+        margin-left: 6%;
+    }
+
+    .text-overlay-bottom-text p {
+        color: #000000;
+    }
+
+    .text-overlay-bottom-text a {
+        top: 75%;
+        background-color: #222f59;
+        margin-bottom: 5%;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .upper-text-box {
+        margin-top: 12%;
+    }
+
+    .top-schedule-button {
+        /*margin-top: 2%;*/
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+
+    #responsive-menu {
+        width: 75% !important;
+    }
+
+      .text-overlay-bottom-text {margin-top:5%;}
+
+    .text-overlay-bottom-text p {
+        color: #000000;
+    }
+
+    .text-overlay-bottom-text a {
+        background-color: #222f59;
+        margin-bottom: 5%;
+    }
+
+    .middle-images-row img{
+          width: 80%;
+  margin-left: 10%;
+    }
+
+    .top-home-con {
+        padding-bottom: 0px;
+    }
+
+    .pull-right i {
+        float: none !important;
+    }
+}
+
+@media (max-width:767px) {
+        .row {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .col-xs-offset-2 {
+    margin-left: 16.666666666666664%;
+}
+    .topimage {
+        /*margin-top: 13%;*/
+    }
+    .top-background-image {
+        position: absolute;
+        top: 50px;
+          width: 100%;
+  height: 14%;
+    }
+    .top_image_container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .scheduleAppointment .row {
+        padding: 0;
+        margin:0;
+    }
+            .top-schedule-button a {
+            padding: 20px 2px;
+            letter-spacing:1px;
+        }
+    .upper-text-box h1 {
+        font-size: 3.0em;
+        font-weight:normal;
+    }
+
+    .upper-text-box h2 {
+        margin-top: 15%;
+        line-height:30px;
+    }
+    /*.top-schedule-button {
+        margin-top: 10%;
+    }*/
+    
+    .upper-text-box {
+        margin-top: 30%;
+    }
+
+    .top-home-con {
+        padding-bottom: 0px;
+    }
+
+
+
+    .text-overlay-bottom-text p {
+        color: #000000;
+    }
+
+    .text-overlay-bottom-text a {
+        background-color: #222f59;
+        margin-bottom: 5%;
+    }
+
+    .motto-2 {
+        margin-top: 0px;
+    }
+    .forbody {
+        padding: 5px;
+        line-height:55px;
+    }
+    .formind {
+        padding: 5px;
+        line-height:55px;
+    }
+    iframe {
+  margin-left: -10%;
+  margin-bottom: 2%;
+    }
+}
+
+@media (max-width:480px) {
+    .text-overlay-bottom-text a {
+        background-color: #222f59;
+        margin-bottom: 5%;
+    }
+}
+
+/*----------End of Home Page Styling----------*/
+
+
+/*-----------------------------Full Width Template------------------------------------*/
+
+
+
+.entry-title {
+    display:none;
+}
+.full-width3 {
+  padding-top: 10.125rem;
+  padding-bottom: 5.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-bottom:2%;
+}
+ 
+.full-width3 h1 {
+    font-size: 2.5em;
+    color: gray;
+    padding-bottom:.5em;
+}
+
+    .full-width3 .top-schedule-button {
+        margin-top: 2%;
+    }
+
+.thank_you p, .thank_you h1, .thank_you h2{
+    text-align: center;
+}
+
+/*--------------------content-------------------*/
+.page-content {
+    padding-bottom: 40px;
+}
+
+.title-info {
+    color: #008DD0;
+}
+
+#primary, #sidebar-form {
+    z-index: 2;
+}
+
+.entry-content {
+    margin-top: 40px;
+}
+
+/*-----------------------------End of Full Width Template------------------------------------*/
+
+
+/*-----------------------------Program Page Template------------------------------------*/
+
+.programs h1, h2 {
+    font-weight: bold;
+}
+
+.programs li {
+    line-height: 35px;
+}
+
+.programs p {
+    line-height: 30px;
+}
+
+.programs .top_image{
+    width:100%;
+}
+
+
+
+.programs_top_area {
+    background-color: #f4a771;
+}
+
+.programs_top_area ul{
+    list-style-image: url('http://neurofitcenter.ca/wp-content/uploads/2015/05/checkmark.png');
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.programs_middle_area {
+    background-color: #cb6829;
+}
+
+    .programs_middle_area .middle_text_area {
+        padding-top: 5%;
+        background-color: #7fb692;
+    }
+
+.programs_middle_area .highlight_text {
+    color: white;
+    background: black;
+      font-weight: bold;
+  font-size: 1.5em;
+}
+
+    .programs_middle_area .middle_right_image {
+        background-color: #cb6829;
+        padding:5%;
+    }
+
+.programs_bottom_area {
+    background-color: #f5e7cd;
+    padding:15px 0;
+}
+
+
+
+
+/*Programs Mobile Styling*/
+
+@media (max-width:767px) {
+    .programs .row {
+        margin: 0;
+    }
+    .programs .top_image {
+        position:initial;
+        right:0;
+        width: 100%;
+        height: 100%;
+    }
+    .programs .img-responsive {
+        margin: 0;
+    }
+    .programs .top_text_area {
+        padding: 5% 15px;
+    }
+    .programs .top_right_image {
+        padding: 0;
+    }
+
+    .programs_middle_area .middle_text_area {
+        padding: 5% 0;
+    }
+}
+
+@media (max-width:360px) {
+    .programs .row {
+        margin: 0;
+    }
+
+    .programs .top_image {
+        position: initial;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        /*margin-top: 14% !important;*/
+    }
+}
+
+.widget-title {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+
+
+/*Fit 3d Styling*/
+
+.fit_3d_top_text {
+    padding-top: 2%;
+}
+
+.fit_3d_top_text h1 {
+    background-color: black;
+    color: white;
+}
+
+
+.fit_3d_page .content-images {
+    position: relative;
+    width: 300px;
+    left: 702px;
+    top: -383px;
+}
+
+.fit_3d_middle_black_text {
+    display: block;
+    padding: 0px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+    .fit_3d_middle_black_text p {
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+    /*Mobile Styling*/
+
+@media (max-width: 992px) {
+
+    .top_right_image , .fit3d_middle_image {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .top_right_image_container {
+        padding: 0px;
+    }
+}
+
+
+/*Oxigen Bar Mobile Styling*/
+
+@media (max-width: 992px) {
+
+    .top_right_image, .oxigen_bar_middle_image {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+.middle-images-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*Neuro Optimal Page Styling*/
+
+.neuro_optimal_page .top_text_area {
+    padding: 10% 0;
+}
+
+.neuro_optimal_page .middle_content_container {
+
+}
+
+.middle_content_left_top_text_container {
+    background-color:#7fb692;
+    padding:5% 0;
+}
+
+.middle_content_left_bottom_text_container {
+    background-color: #cb6829;
+    padding:5% 0;
+    max-height:290px;
+}
+
+.middle_content_right_text_container {
+    background-color: #e6d6b8;
+    padding:5% 0 18.5% 0;
+}
+/*Neuro Optimal Mobile Styling*/
+@media (max-width: 992px) {
+    .neuro_optimal_page .col-lg-6 {
+        padding: 0;
+    }
+}
+
+/*Neurotracker*/
+
+.neurotracker_page .top_text_area {
+    padding-top: 3%;
+}
+
+/*Whole Body Vibration Page*/
+
+.whole_body_vibration_page .top_text_area {
+    padding: 5% 0;
+}
+
+.whole_body_vibration_page .top_right_image {
+    height: 100%;
+}
+
+.whole_body_vibration_page .middle_content_right_text_container {
+    background-color: #cb6829;
+    padding:5% 0 21% 0;
+}
+
+.whole_body_vibration_page .programs_bottom_area ul {
+    text-align:center;
+}
+
+.whole_body_vibration_page .programs_bottom_area li {
+    color: #FFFFFF;
+    background-color: #000000;
+    margin:0 5%;
+        text-decoration: none;
+    display: inline;
+    padding: 0 2%;
+    font-weight:bold;
+}
+
+
+/*Whole Body Vibration Page Mobile Styling*/
+@media (max-width: 992px) {
+    .whole_body_vibration_page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .whole_body_vibration_page .col-lg-6 {
+        padding: 0;
+    }
+    .whole_body_vibration_page .top_text_area {
+        padding: 0 15px;
+    }
+    .whole_body_vibration_page .top_right_image {
+        height: auto;
+    }
+    .whole_body_vibration_page .middle_content_right_text_container {
+        padding: 5% 0 5% 0;
+    }
+    .whole_body_vibration_page .programs_bottom_area ul {
+        padding:0;
+    }
+
+    .whole_body_vibration_page .programs_bottom_area li {
+        color: #FFFFFF;
+        background-color: #000000;
+        margin:15px 0;
+        display:block;
+        padding: 0 2%;
+    }
+}
+/*Float Therapy Styling*/
+
+.float_therapy_page .top_text_area{
+    padding:10% 0;
+}
+
+.float_therapy_page .middle_content_left_top_text_container{
+ padding:13.5% 0;
+}
+
+.float_therapy_page .middle_content_left_bottom_text_container{
+      padding: 13.5% 0;
+max-height:none;
+
+}
+
+.float_therapy_page .bottom_section_top_text_area ul{
+    padding:0;
+    text-align: center;
+}
+
+.float_therapy_page .bottom_section_top_text_area li{
+      color: #FFFFFF;
+  background-color: #000000;
+  margin:0;
+  text-decoration: none;
+  display: inline;
+  padding: 0 3%;
+  font-weight: bold;
+}
+
+.float_therapy_page .bottom_section_middle_right_list{
+    margin-top:5%;
+}
+
+.float_therapy_page .bottom_section_middle_right_list ul{
+    list-style-image: url('http://neurofitcenter.ca/wp-content/uploads/2015/05/checkmark.png');
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media (max-width:767px) {
+    .float_therapy_page .middle_content_container .col-lg-6{
+        padding:0;
+    }
+}
+
+/*About us Page Styling*/
+
+.about_us_page .top_container{
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+.about_us_page .title h1{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 5%;
+}
+
+.about_us_page .top_image{
+    padding:5% 0;
+}
+
+.about_us_middle_image_container{
+    padding: 2% 0;
+}
+
+.about_us_middle_image_container img{
+    -webkit-filter: grayscale(100%);
+}
+
+.about_us_page .bottom_container{
+    background-color:#FFFFFF;
+    color:#000000;
+}
+
+.about_us_page .bottom_section_one{
+    border-bottom: solid;
+    border-bottom-width:1px;
+    border-color:#000000;
+}
+
+.about_us_page .bottom_section_one ul{
+        -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+        list-style-image: url('http://neurofitcenter.ca/wp-content/uploads/2015/05/checkmark.png');
+    text-transform: uppercase;
+    font-weight: 600;
+    list-style-position: inside;
+}
+
+.about_us_page .bottom_section_two ul{
+        -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+        list-style-image: url('http://neurofitcenter.ca/wp-content/uploads/2015/05/checkmark.png');
+    text-transform: uppercase;
+    font-weight: 600;
+    list-style-position: inside;
+}
+
+@media (max-width:480px) {
+    .about_us_page ul {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+/*Contact Us*/
+
+.contact_us_page p{
+    color:#FFFFFF;
+}
+
+.contact_us_page a {
+    text-decoration: none;
+}
+
+    .contact_us_page a:hover {
+        color: #FFFFFF;
+    }
+
+
+.contact_us_page .top_container ul{
+      list-style-image: url('http://neurofitcenter.ca/wp-content/uploads/2015/05/checkmark.png');
+  text-transform: uppercase;
+  font-weight: 600;
+  color:#FFFFFF;
+}
+
+.contact_us_bg_image{
+      background: url('http://neurofitcenter.ca/wp-content/uploads/2015/06/contactusbackground.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.contact_us_page .title h1{
+      text-align: center;
+  color: #FFFFFF;
+  font-size: 5em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.contact_us_page .top-schedule-button{
+    text-align: left;
+    width:auto;
+    margin-left: 15px;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+.contact_us_page .top-schedule-button a{
+    padding:20px 65px;
+}
+
+.contact_us_page .top_container p{
+    line-height: 20px;
+}
+
+.contact_us_page .store_hours_container {
+    background-color: #000000;
+    padding: 5% 0;
+    font-weight:bold;
+    text-align:center;
+    font-size:2em;
+}
+
+    .contact_us_page .store_hours_container li {
+        display: inline;
+        padding:0 15px;
+    }
+
+.contact_us_form {
+    margin: 2% 0;
+}
+
+.contact_us_form p {
+    color: #000000;
+}
+
+.contact_us_form .required{
+    color: #cb6829;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.contact_us_form textarea {
+    width: 100%;
+      background: #fafafa;
+  border: 1px solid #d9d9d9;
+  height:205px;
+
+}
+
+.contact_us_form input {
+    width: 100%;
+      background: #fafafa;
+  border: 1px solid #d9d9d9;
+
+}
+
+
+
+.contact_us_form .submit input {
+        margin: 2% auto;
+    text-transform: uppercase;
+    border: 1px solid #7fb692;
+    color: #7fb692;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+            -webkit-transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        -ms-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+}
+
+    .contact_us_form .submit input:hover {
+         background-color: #7fb692;
+         color:#FFFFFF;
+    }
+
+/*Contact Us Mobile Styling*/
+
+@media (max-width:767px) {
+.contact_us_page .top-schedule-button{
+    margin:5% 0;
+    padding:0 15px;
+}
+.contact_us_page ul{
+    display:inline-grid;
+        -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+}
+}
+
+/* Effect 21: borders slight translate */
+.cl-effect-21 a {
+	padding: 10px;
+	color: #cb6829;
+	text-shadow: none;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cl-effect-21 a::before,
+.cl-effect-21 a::after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #cb6829;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.cl-effect-21 a::before {
+	top: 0;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.cl-effect-21 a::after {
+	bottom: 0;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.cl-effect-21 a:hover,
+.cl-effect-21 a:focus {
+	color: #cb6829;
+}
+
+.cl-effect-21 a:hover::before,
+.cl-effect-21 a:focus::before,
+.cl-effect-21 a:hover::after,
+.cl-effect-21 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
