@@ -9,12 +9,9 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 	<head>
-
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta http-equiv="X-UA-Compatible" content="IE=9" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
         <title><?php if(is_home()) { echo bloginfo("name"); echo " | "; echo bloginfo("description"); } else { echo wp_title(" | ", false, right); echo bloginfo("name"); } ?></title>
         <meta name="google-site-verification" content="hZ-KSJwNREIdYBtht6A7XDcflyYH6XR-gSspAOifc7c" />
 		<!---<title><?php wp_title( '|', true, 'right' ); ?></title>--->
@@ -22,12 +19,7 @@
 		<!--[if lt IE 9]>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 		<![endif]-->
-		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jquery-ui.css" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
         
 		<?php wp_head(); ?>
 <script>
